@@ -1,0 +1,73 @@
+.cart-container {
+    background-color: #f9f9f9; /* Light background color */
+    padding: 20px; /* Padding around the cart */
+    border-radius: 8px; /* Rounded corners */
+    max-width: 800px; /* Max width for the cart */
+    margin: auto; /* Center the cart */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.cart-title {
+    font-size: 2rem; /* Title size */
+    color: #333; /* Dark text for contrast */
+    margin-bottom: 20px; /* Spacing below the title */
+}
+
+.cart-summary {
+    margin-bottom: 20px; /* Spacing below the summary */
+}
+
+.loading-message,
+.error-message {
+    color: #e68a00; /* Highlight color for loading and error messages */
+}
+
+.cart-items-list {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0; /* Remove default padding */
+}
+
+.cart-item {
+    background-color: #fff; /* White background for item */
+    border: 1px solid #e2c69d; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 15px; /* Inner spacing */
+    margin-bottom: 10px; /* Spacing between items */
+    transition: box-shadow 0.2s; /* Smooth transition for hover effect */
+}
+
+.cart-item:hover {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Shadow effect on hover */
+}
+
+.cart-item-name {
+    font-size: 1.5rem; /* Name font size */
+    color: #333; /* Dark text for contrast */
+}
+
+.cart-item-description,
+.cart-item-category,
+.cart-item-price,
+.cart-item-quantity {
+    font-size: 1rem; /* Regular font size for other details */
+    color: #555; /* Slightly lighter text */
+}
+
+.place-order-button {
+    background-color: #e68a00; /* Highlight color for the order button */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 20px; /* Inner padding */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.2s; /* Smooth transition for hover effect */
+}
+
+.place-order-button:hover {
+    background-color: #d07e00; /* Darker color on hover */
+}
+
+.order-message {
+    margin-top: 20px; /* Spacing above order message */
+    color: #e68a00; /* Highlight color for order messages */
+}

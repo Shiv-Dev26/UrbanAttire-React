@@ -1,0 +1,86 @@
+/* src/assets/styles/OrderDetail.css */
+
+:root {
+    --primary-color: #007bff;
+    --text-color: #333;
+    --light-gray: #f8f9fa;
+    --dark-gray: #666;
+}
+
+.order-detail-container {
+    padding: 20px;
+    max-inline-size: 1200px;
+    margin: 0 auto;
+}
+
+.order-detail-container h2 {
+    text-align: center;
+    margin-block-end: 20px;
+}
+
+.order-info {
+    background-color: var(--light-gray);
+    padding: 20px;
+    margin-block-end: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.order-info p {
+    font-size: 1.1em;
+    color: var(--text-color);
+}
+
+.order-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.order-item-card {
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.order-item-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.order-item-card:focus {
+    outline: 2px solid var(--primary-color);
+}
+
+.product-image {
+    inline-size: 100%;
+    block-size: auto;
+    border-radius: 8px;
+}
+
+.product-details h4 {
+    font-size: 1.2em;
+    color: var(--text-color);
+    margin-block-end: 5px;
+}
+
+.product-details p {
+    font-size: 1em;
+    color: var(--dark-gray);
+    margin: 3px 0;
+}
+
+@media (max-width: 600px) {
+    .order-info p {
+        font-size: 0.9em;
+    }
+    .product-details h4 {
+        font-size: 1.1em;
+    }
+}

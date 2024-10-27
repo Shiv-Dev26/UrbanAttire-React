@@ -1,0 +1,72 @@
+.footer {
+    background-color:  #faf0e6; /* Cream shade */
+    color: #333; /* Dark text color for contrast */
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #444; /* Slightly darker for headers */
+}
+
+.footer-section p,
+.footer-section ul,
+.footer-section li {
+    margin: 5px 0;
+    color: #666;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section li {
+    margin-bottom: 8px;
+}
+
+.footer-section li:hover {
+    color: #333; /* Darken on hover for better UX */
+    cursor: pointer;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 15px 0;
+    border-top: 1px solid  #faf0e6; /* Light border to separate sections */
+    color: #555;
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.footer-section li {
+    margin-bottom: 8px;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.footer-section li:hover {
+    color: #000; /* Darken text on hover */
+    text-decoration: underline; /* Underline on hover */
+    cursor: pointer;
+}

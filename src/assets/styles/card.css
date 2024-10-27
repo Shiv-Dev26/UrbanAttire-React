@@ -1,0 +1,41 @@
+.product-card {
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 16px; /* Inner spacing */
+    margin: 16px; /* Outer spacing */
+    text-align: center; /* Center the text */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.2s; /* Animation on hover */
+    background-color: #fff; /* White background for the card */
+}
+
+.product-card:hover {
+    transform: scale(1.05); /* Slightly enlarge card on hover */
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+}
+
+.product-image {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+
+.product-image img {
+    width: 100%; /* Scale image to full width */
+    height: 100%; /* Make image fill the container height */
+    object-fit: cover; /* Cover the area while maintaining aspect ratio */
+}
+
+h3 {
+    margin: 12px 0 8px; /* Spacing above and below the heading */
+    font-size: 1.5em; /* Increase font size */
+    color: #333; /* Darker text color */
+}
+
+p {
+    margin: 4px 0; /* Spacing for paragraphs */
+    color: #666; /* Gray color for description */
+    font-size: 1em; /* Standard font size */
+}

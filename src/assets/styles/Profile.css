@@ -1,0 +1,170 @@
+.profile-container {
+    max-width: 600px; /* Adjust the width as needed */
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc; /* Optional: Add a border for styling */
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Deeper shadow for more depth */
+    background-color: #ffffff; /* White background for contrast */
+    transition: transform 0.3s; /* Smooth transition for hover effect */
+}
+
+.profile-container:hover {
+    transform: translateY(-2px); /* Lift effect on hover */
+}
+
+.form-group {
+    margin-bottom: 20px; /* Space between form elements */
+}
+
+.form-group label {
+    font-weight: bold; /* Bold labels for emphasis */
+    color: #333; /* Darker text for better readability */
+    display: block; /* Labels on separate lines */
+    margin-bottom: 8px; /* Space below labels */
+}
+
+.form-group input {
+    width: 100%; /* Full-width input fields */
+    padding: 10px; /* Increased padding for better touch */
+    border: 1px solid #ddd; /* Lighter border for input fields */
+    border-radius: 6px; /* Slightly rounded input fields */
+    transition: border-color 0.3s; /* Smooth border color transition */
+}
+
+.form-group input:focus {
+    border-color: #4CAF50; /* Green border on focus */
+    outline: none; /* Remove default outline */
+}
+
+.save-button,
+.logout-button {
+    background: linear-gradient(90deg, #4CAF50, #45a049); /* Gradient background */
+    color: white; /* White text */
+    padding: 12px 20px; /* Increased padding around buttons */
+    border: none; /* Remove border */
+    border-radius: 6px; /* Rounded buttons */
+    cursor: pointer; /* Pointer on hover */
+    font-size: 16px; /* Increased font size */
+    transition: background 0.3s, transform 0.2s; /* Smooth transition for hover */
+}
+
+.save-button:hover,
+.logout-button:hover {
+    background: linear-gradient(90deg, #45a049, #4CAF50); /* Reverse gradient on hover */
+    transform: translateY(-2px); /* Lift effect on hover */
+}
+
+.profile-pic-container {
+    position: relative; /* For positioning the edit button */
+    margin-bottom: 30px; /* Space below the image */
+    display: flex; /* Align items in the container */
+    justify-content: center; /* Center the image horizontally */
+}
+
+.profile-pic {
+    max-width: 100%; /* Make sure images don't exceed the container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Rounded corners for images */
+    border: 2px solid #fbfbe7; /* Border for images */
+    transition: transform 0.3s;/* Increased space between images */
+}
+
+.profile-pic img {
+    max-width: 100%; /* Make sure images don't exceed the container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Rounded corners for images */
+    border: 2px solid #ecf4af; /* Border for images */
+    transition: transform 0.3s; /* Smooth transition for image hover */
+}
+
+.profile-pic img:hover {
+    transform: scale(1.05); /* Zoom effect on hover */
+}
+
+/* Modal styles */
+.modal {
+    display: flex;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+}
+
+.modal-content {
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #888;
+    width: 80%; /* Width of the modal */
+    max-width: 600px; /* Maximum width */
+}
+
+.large-profile-pic {
+    width: 100%; /* Make image responsive */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.profile-preview {
+    width: 100px; /* Set a fixed width for the preview */
+    height: auto; /* Maintain aspect ratio */
+    border: 1px solid #ccc; /* Optional: border around the preview */
+    border-radius: 50%; /* Optional: circular preview */
+    margin-top: 10px; /* Space above the image */
+  }
+  
+  .profile-pic-container {
+    width: 150px; /* Adjust the size as needed */
+    height: 150px; /* Adjust the size as needed */
+    overflow: hidden; /* Hide any overflow */
+    border-radius:50%; /* Make it circular */
+    display: flex;
+    justify-content: center; /* Center the image */
+    align-items: center; /* Center the image */
+    border: 2px solid #ccc; /* Optional: Add a border */
+    margin: 20px auto; /* Center container */
+}
+
+.profile-pic {
+    width: 150px; /* Adjust the size as needed */
+    height: 150px; /* Adjust the size as needed */
+    overflow: hidden; /* Hide any overflow */
+    border-radius:50%; /* Make it circular */
+    display: flex;
+    justify-content: center; /* Center the image */
+    align-items: center; /* Center the image */
+    border: 2px solid #ccc; /* Optional: Add a border */
+    margin: 20px auto; /* Center container */
+
+}
+
+.large-profile-pic {
+    width: 150px; /* Adjust the size as needed */
+    height: 150px; /* Adjust the size as needed */
+    overflow: hidden; /* Hide any overflow */
+    border-radius:50%; /* Make it circular */
+    display: flex;
+    justify-content: center; /* Center the image */
+    align-items: center; /* Center the image */
+    border: 2px solid #ccc; /* Optional: Add a border */
+    margin: 20px auto; /* Center container */
+
+}
